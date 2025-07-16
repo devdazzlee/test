@@ -100,7 +100,7 @@ export default function LoginPage() {
                   autoComplete="current-password"
                   className="pr-10"
                 />
-                <Button
+                <button
                   type="button"
                   tabIndex={-1}
                   className="absolute right-2 top-9 text-muted-foreground hover:text-primary"
@@ -108,7 +108,7 @@ export default function LoginPage() {
                   aria-label={showPassword ? "Hide password" : "Show password"}
                 >
                   {showPassword ? <EyeOff className="w-5 h-5" /> : <Eye className="w-5 h-5" />}
-                </Button>
+                </button>
               </div>
               <Button
                 type="submit"
